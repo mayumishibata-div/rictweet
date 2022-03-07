@@ -17,6 +17,7 @@ class TweetsController < ApplicationController
         tweet.destroy
     end 
     
+    
     private
     
     def tweet_params
